@@ -1,0 +1,68 @@
+/* Global */
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #1f2937;
+    background: #f5f7fa;
+}
+
+/* Header */
+.site-header {
+    text-align: center;
+    background: rgb(204, 194, 194);
+    color: black;
+    padding: 1.25rem 1rem;
+}
+.site-header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+.site-header p {
+    margin: 0.5rem 0 0;
+    font-size: 1.1rem;
+}
+
+/* Navigation */
+.nav-horizontal {
+    background: #ffffff;
+    border-bottom: 2px solid #e5e7eb;
+}
+.nav-horizontal ul {
+    display: flex;
+    justify-content: center;
+    gap: 1.25rem;
+    list-style: none;
+    margin: 0;
+    padding: 0.65rem 1rem;
+}
+.nav-horizontal a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #000000;
+    padding: 0.35rem 0.6rem;
+    border-radius: 0.35rem;
+}
+
+/* Main page spacing */
+main {
+    max-width: 900px;
+    margin: 1.25rem auto;
+    padding: 0 1rem;
+    
+}
+
+/* h1 */
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+/* h2 */
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
