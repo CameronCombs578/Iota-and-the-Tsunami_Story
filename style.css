@@ -179,14 +179,26 @@ h2 {
     margin-top: 30px;
     text-align: center;
 }
-```
 
-This will create:
+/* Story Scene */
 
-* A centered pop-up style main menu
-* A Start Adventure button that begins the story
-* An Instructions screen
-* A Back to Home button
-* A simple example of changing from one story scene to the next with JavaScript
+.story-scene {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
 
-You can continue expanding the story by replacing the `playContent.innerHTML` sections with additional scenes and buttons.
+.Iota-text {
+    max-width: 400px;
+    text-align: left;
+}
+
+.Iota-image img {
+    width: 250px;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}

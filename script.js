@@ -16,9 +16,21 @@ startButton.addEventListener("click", () => {
 
     // Replace the placeholder text with the first scene
     playContent.innerHTML = `
-        <h2>Iota's Journey</h2>
-        <p>Iota stood on the beach and noticed the ocean pulling away from the shore.</p>
-        <button id="continueButton">Continue</button>
+        <div class="Chapter1">
+            <div class="Iota-image">
+                <img src="images/Iota_Paint.png" alt="Iota standing on the beach" />
+            </div> 
+                   
+            <div class="story-text">
+                <h2>Chapter 1: The Calm before the Storm</h2>
+                <p>It was a calm morning at Mushroom Village and the sun was shining bring upon the land. The vilagers were going about their daily tasks. Some were farming other gardening. Kids were studying hard at the Vilage's school. One girl, named Iota, had just finished her assignments for that day and was walking home.</p>
+                <p>As she was walking, she thought about her day of school and reflected upon what she had learned. "Pride is destructive," she thought to herself. "The Teachers story of pride consuming a person the inside out is really hard to imagine though." She hasented to Grace's house, one of her best friends, to see what she was doing.</p>
+                <button id="continueButton">Continue</button>
+            </div>
+
+
+
+        </div>
     `;
 
     // Example of moving to the next part of the story
@@ -26,8 +38,8 @@ startButton.addEventListener("click", () => {
 
     continueButton.addEventListener("click", () => {
         playContent.innerHTML = `
-            <h2>The Warning</h2>
-            <p>Iota remembered what her grandfather said: when the ocean retreats, a tsunami may be coming.</p>
+            <h2>Chapter 1: The Calm before the Storm Continued</h2>
+            <p>To be continued.</p>
             <button id="menuReturnButton">Return to Menu</button>
         `;
 
