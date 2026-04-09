@@ -23,7 +23,27 @@
         <main>
             <h1>Play</h1>
 
-            <p> "Iota and the Tsunami" comming soon!"
+            <div class="menu-screen" id="menuScreen" aria-modal="true" role="dialog">
+                <div class="menu-card">
+                    <h2>Main Menu</h2>
+                    <p>Welcome to "Iota and the Tsunami." Choose an option to begin the adventure.</p>
+                    <button id="startButton">Start Adventure</button>
+                    <button id="instructionsButton">Instructions</button>
+                    <button id="homeButton">Back to Home</button>
+                </div>
+            </div>
+
+            <div class="play-content hidden" id="playContent">
+                <h2>Iota's Journey</h2>
+                <p>Press the menu button to return or start the story when it is ready.</p>
+            </div>
+
+            <div class="instructions hidden" id="instructionsContent">
+                <h2>Instructions</h2>
+                <p>Use the menu to navigate Iota's story. Choose "Start Adventure" to progress to the next scene.</p>
+                <button class="menu-return" id="backToMenuButton">Return to Menu</button>
+            </div>
         </main>
+        <script src="script.js"></script>
     </body>
 </html>

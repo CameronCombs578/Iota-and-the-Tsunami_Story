@@ -51,7 +51,59 @@ main {
     max-width: 900px;
     margin: 1.25rem auto;
     padding: 0 1rem;
-    
+}
+
+.menu-screen {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(15, 23, 42, 0.75);
+    padding: 1rem;
+    z-index: 10;
+}
+
+.menu-card {
+    width: min(420px, 100%);
+    padding: 1.75rem;
+    border-radius: 1rem;
+    background: #ffffff;
+    box-shadow: 0 20px 45px rgba(15, 23, 42, 0.18);
+    text-align: center;
+}
+
+.menu-card h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+}
+
+.menu-card p {
+    margin: 0 0 1.25rem;
+    color: #334155;
+}
+
+.menu-card button,
+.menu-return {
+    width: 100%;
+    border: none;
+    background: #2563eb;
+    color: #ffffff;
+    padding: 0.9rem 1rem;
+    border-radius: 0.75rem;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 0.75rem;
+}
+
+.menu-card button:hover,
+.menu-return:hover {
+    background: #1d4ed8;
+}
+
+.hidden {
+    display: none;
 }
 
 /* h1 */
@@ -66,3 +118,75 @@ h2 {
     justify-content: center;
 }
 
+
+/* Menu Screen */
+
+.hidden {
+    display: none !important;
+}
+
+.menu-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.menu-card {
+    background-color: white;
+    width: 320px;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.menu-card h2 {
+    margin-top: 0;
+}
+
+.menu-card button,
+.menu-return,
+#continueButton,
+#menuReturnButton {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #2c6ebd;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.menu-card button:hover,
+.menu-return:hover,
+#continueButton:hover,
+#menuReturnButton:hover {
+    background-color: #1d4f8c;
+}
+
+.play-content,
+.instructions {
+    margin-top: 30px;
+    text-align: center;
+}
+```
+
+This will create:
+
+* A centered pop-up style main menu
+* A Start Adventure button that begins the story
+* An Instructions screen
+* A Back to Home button
+* A simple example of changing from one story scene to the next with JavaScript
+
+You can continue expanding the story by replacing the `playContent.innerHTML` sections with additional scenes and buttons.
