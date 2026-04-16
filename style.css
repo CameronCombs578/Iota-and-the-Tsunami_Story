@@ -191,14 +191,60 @@ h2 {
     flex-wrap: wrap;
 }
 
+/* Chapter 1 images and text*/
+.Chapter1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
 .Iota-text {
     max-width: 400px;
     text-align: left;
 }
 
 .Iota-image img {
-    width: 250px;
+    width: 150px;
+    height: auto;
     max-width: 100%;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.village-text {
+    max-width: 400px;
+    text-align: left;
+}
+
+.village-image img {
+    width: 150px;
+    height: auto;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.Grace-text {
+    max-width: 400px;
+    text-align: left;
+}
+
+.Grace-image img {
+    width: 150px;
+    height: auto;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Media query for laptop and larger screens */
+@media (min-width: 768px) {
+    .Iota-image img,
+    .village-image img,
+    .Grace-image img {
+        width: 250px;
+    }
 }
