@@ -140,11 +140,11 @@ function showGardeningScene() {
                 </div>
             </div>
             <p>"Okay. Let's help with gardening," Grace said as she hurried off. "Where are you going?" Iota asked. "I know a neighbor who needs help in the garden," Grace replied. They worked together planting seeds and watering flowers for a nearby neighbor. When they finished, the neighbor gave them the money they needed for the new scope.</p>
-            <button id="chat1continueButton4">End</button>
+            <button id="chat1continueButton4">Chapter 2</button>
         </div>
     `;
     
-    document.getElementById("chat1continueButton4").addEventListener("click", showMenu);
+    document.getElementById("chat1continueButton4").addEventListener("click", showsence5);
 }
 
 function showsence5() {
@@ -170,7 +170,7 @@ function showsence5() {
     `;
     
     document.getElementById("chat2continueButton5Path1").addEventListener("click", showsence6path1);
-    document.getElementById("chat2continueButton5Path2").addEventListener("click", showMenu);
+    document.getElementById("chat2continueButton5Path2").addEventListener("click", showsence6path2);
 }
 
 function showsence6path1() {
@@ -196,6 +196,32 @@ function showsence6path1() {
     document.getElementById("chat2continueButton6").addEventListener("click", showsence7path1);
 }
 
+function showsence6path2() {
+    playContent.innerHTML = `
+        <div class="story-text">
+            <h2>Chapter 2 Continued: Sitting by the Shore</h2>
+            <div class="Chapter2">
+                <div class="Iota-image">
+                    <img src="images/IotaAndText_Paint.png" alt="Iota standing" />
+                </div>
+                <div class="village-image">
+                    <img src="images/Vilage.png" alt="Mushroom Village" />
+                </div>
+                <div class="Grace-image">
+                    <img src="images/GraceAndText_Paint.png" alt="Grace standing" />
+                </div>
+            </div>
+            <p>Grace and Iota were walking down the path when they heard two men talking. "Did you see that wall of water? It could detroy the whole village." One said "Don't be concerned about it. If we tell, we would need to relocate think about our business," the other replied. "Right, of course," the first relplied as they both walked down the path. </p>
+            <p>"Did you hear that," Grace said in shocked. "I did," Iota replied. "But is it true?" Iota and Grace ran to the shore and looked through the scope. "Its true!" Iota said. "We need to warn our village!" Grace said. "Should we go through the woods or the road?" Grace said.
+            <button id="chat3continueButton2woods">Route 1: woods</button>
+            <button id="chat3continueButton2road">Route 2: road</button>
+        </div>
+    `;
+    
+    document.getElementById("chat3continueButton2woods").addEventListener("click", showsence8route1path1);
+    document.getElementById("chat3continueButton2road").addEventListener("click", showsence8route2path1);
+}
+
 function showsence7path1() {
     playContent.innerHTML = `
         <div class="story-text">
@@ -217,7 +243,29 @@ function showsence7path1() {
         </div>
     `;
     document.getElementById("chat3continueButton2woods").addEventListener("click", showsence8route1path1);
-    document.getElementById("chat3continueButton2road").addEventListener("click", showMenu);
+    document.getElementById("chat3continueButton2road").addEventListener("click", showsence8route2path1);
+}
+
+function showsence8route2path1() {
+    playContent.innerHTML = `
+        <div class="story-text">
+            <h2>Chapter 3 Continued: The Wall of Water</h2>
+            <div class="Chapter3">
+                <div class="Iota-image">
+                    <img src="images/IotaAndText_Paint.png" alt="Iota standing" />
+                </div>
+                <div class="village-image">
+                    <img src="images/Vilage.png" alt="Mushroom Village" />
+                </div>
+                <div class="Grace-image">
+                    <img src="images/GraceAndText_Paint.png" alt="Grace standing" />
+                </div>
+            </div>
+            <p>It took Iota and Grace a while to get to Mushroom village, but they were able to warn the vilagers about the tsunami. Many of the villagers relocated their homes to a location out of the way of the tsunami. They all watch together as the wall of water reached land and detroyed all the trees in the way. "Thankfully we did not experience that" a vilager said. "I am so glad that we were warned abotu the tsunami, but thir were a few villagers that did not relocate because of their businesse. They gave their life for thier own wealth." "Wow, people would do that," Iota thought to herself. "Well, I am grateful that many of the villagers herad our warning." "This is just like the story we heard for school today, pride consuming from the inside out." Grace said as she looked at the tsunami. "Yeah, good thing" Iota said quietly.</p>
+            <button id="chat3continueButton2woods">End</button>
+        </div>
+    `;
+    document.getElementById("chat3continueButton2woods").addEventListener("click", showMenu);
 }
 
 function showsence8route1path1() {
@@ -240,13 +288,13 @@ function showsence8route1path1() {
             </div>
             <p>"Alright." Iota said as she and Grace ran into the nearby woods. "We have to hurry!" Grace saide as they ran through the woods." As they were running, Grace tripped on a root and ran into one of the trees. "Grace! I'm comming!" Iota screamed as she ran to Grace. Grace was suprizingly okay, but she could not move her legs very well. "I am  okay, but my legs won't work," Grace said. "You need a doctor." Iota said as she thought of options. "There is no time for this you need to hurry and warn the villagers of the tsunami. I will stay here until you warn the." "But...what about wild animals or strangers. You still need help."</p>
             <p>Iota began to shout for help hoping that somone nearby would her her. "There is no use Iota," Grace said as she reached for a limb on the tree. If you won't leave without me, then I will have to come along." "Oh no you don't, not on my watch," Iota said. As Iota was attempting to stop Grace without hurting her, a boy came walking through the woods. "Hi, what are you two doing." the stranger said with a puzzled look on his face. "What?" Iota saide supprizinglly. "Who are you? Nevermind, we need your help please."
-            <button id="chat3continueButton3woods">Route 1: woods</button>
+            <button id="chat3continueButton3woods">Chapter 4</button>
         </div>
     `;
-    document.getElementById("chat3continueButton3woods").addEventListener("click", showsence8route1path1);
+    document.getElementById("chat3continueButton3woods").addEventListener("click", showsence9route1path1);
 }
 
-function showsence8route1path1() {
+function showsence9route1path1() {
     playContent.innerHTML = `
         <div class="story-text">
             <h2>Chapter 3 Continued: The Wall of Water</h2>
