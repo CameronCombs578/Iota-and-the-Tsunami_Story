@@ -7,6 +7,7 @@ const instructionsButton = document.getElementById("instructionsButton");
 const homeButton = document.getElementById("homeButton");
 const backToMenuButton = document.getElementById("backToMenuButton");
 
+/* Event Listeners - Menu Navigation */
 startButton.addEventListener("click", () => {
     menuScreen.classList.add("hidden");
     instructionsContent.classList.add("hidden");
@@ -26,6 +27,7 @@ homeButton.addEventListener("click", () => {
     window.location.href = "index.html";
 });
 
+/* Chapter 1: The Calm before the Storm */
 function showScene1() {
     playContent.innerHTML = `
         <div class="story-text">
@@ -51,6 +53,7 @@ function showScene1() {
     chat1continueButton1.addEventListener("click", showScene2);
 }
 
+/* Scene Functions - Chapter 1 Introduction */
 function showScene2() {
     playContent.innerHTML = `
         <div class="story-text">
@@ -117,11 +120,11 @@ function showCleaningScene() {
             </div>
             <p>"Sounds great. Let's help with cleaning," Grace said as she hurried off. "Where are you going?" Iota asked. "I know a neighbor who needs help cleaning," Grace replied. They stopped by Mr. Jerry's house. "You can help mop the bathroom floor," he said, holding out a dollar bill. "I can give you three of these for your work." Iota and Grace grabbed mops and began mopping the floor with smiles on their faces.</p>
             <p>After they finished mopping, Mr. Jerry gave them the money he had promised. The girls ran to the general store and bought the new scope. "This is perfect," Iota thought as she handed the money to the cashier.</p>
-            <button id="chat1continueButton4">Chapter2</button>
+            <button id="chat1continueButton4">Chapter 2</button>
         </div>
     `;
 
-    document.getElementById("chat1continueButton4").addEventListener("click", showsence5);
+    document.getElementById("chat1continueButton4").addEventListener("click", showScene5);
 }
 
 function showGardeningScene() {
@@ -144,10 +147,11 @@ function showGardeningScene() {
         </div>
     `;
     
-    document.getElementById("chat1continueButton4").addEventListener("click", showsence5);
+    document.getElementById("chat1continueButton4").addEventListener("click", showScene5);
 }
 
-function showsence5() {
+/* Chapter 2: Sitting by the Shore */
+function showScene5() {
     playContent.innerHTML = `
         <div class="story-text">
             <h2>Chapter 2: Sitting by the Shore</h2>
@@ -169,11 +173,11 @@ function showsence5() {
         </div>
     `;
     
-    document.getElementById("chat2continueButton5Path1").addEventListener("click", showsence6path1);
-    document.getElementById("chat2continueButton5Path2").addEventListener("click", showsence6path2);
+    document.getElementById("chat2continueButton5Path1").addEventListener("click", showScene6Path1);
+    document.getElementById("chat2continueButton5Path2").addEventListener("click", showScene6Path2);
 }
 
-function showsence6path1() {
+function showScene6Path1() {
     playContent.innerHTML = `
         <div class="story-text">
             <h2>Chapter 2 Continued: Sitting by the Shore</h2>
@@ -193,10 +197,10 @@ function showsence6path1() {
         </div>
     `;
     
-    document.getElementById("chat2continueButton6").addEventListener("click", showsence7path1);
+    document.getElementById("chat2continueButton6").addEventListener("click", showScene7Path1);
 }
 
-function showsence6path2() {
+function showScene6Path2() {
     playContent.innerHTML = `
         <div class="story-text">
             <h2>Chapter 2 Continued: Sitting by the Shore</h2>
@@ -218,11 +222,12 @@ function showsence6path2() {
         </div>
     `;
     
-    document.getElementById("chat3continueButton2woods").addEventListener("click", showsence8route1path1);
-    document.getElementById("chat3continueButton2road").addEventListener("click", showsence8route2path1);
+    document.getElementById("chat3continueButton2woods").addEventListener("click", showScene8Route1Path1);
+    document.getElementById("chat3continueButton2road").addEventListener("click", showScene8Route2Path1);
 }
 
-function showsence7path1() {
+/* Chapter 3: The Wall of Water */
+function showScene7Path1() {
     playContent.innerHTML = `
         <div class="story-text">
             <h2>Chapter 3 Continued: The Wall of Water</h2>
@@ -242,11 +247,11 @@ function showsence7path1() {
             <button id="chat3continueButton2road">Route 2: road</button>
         </div>
     `;
-    document.getElementById("chat3continueButton2woods").addEventListener("click", showsence8route1path1);
-    document.getElementById("chat3continueButton2road").addEventListener("click", showsence8route2path1);
+    document.getElementById("chat3continueButton2woods").addEventListener("click", showScene8Route1Path1);
+    document.getElementById("chat3continueButton2road").addEventListener("click", showScene8Route2Path1);
 }
 
-function showsence8route2path1() {
+function showScene8Route2Path1() {
     playContent.innerHTML = `
         <div class="story-text">
             <h2>Chapter 3 Continued: The Wall of Water</h2>
@@ -268,7 +273,7 @@ function showsence8route2path1() {
     document.getElementById("chat3continueButton2woods").addEventListener("click", showMenu);
 }
 
-function showsence8route1path1() {
+function showScene8Route1Path1() {
     playContent.innerHTML = `
         <div class="story-text">
             <h2>Chapter 3 Continued: The Wall of Water</h2>
@@ -291,10 +296,10 @@ function showsence8route1path1() {
             <button id="chat3continueButton3woods">Chapter 4</button>
         </div>
     `;
-    document.getElementById("chat3continueButton3woods").addEventListener("click", showsence9route1path1);
+    document.getElementById("chat3continueButton3woods").addEventListener("click", showScene9Route1Path1);
 }
 
-function showsence9route1path1() {
+function showScene9Route1Path1() {
     playContent.innerHTML = `
         <div class="story-text">
             <h2>Chapter 3 Continued: The Wall of Water</h2>
@@ -321,6 +326,7 @@ function showsence9route1path1() {
     document.getElementById("menuButton").addEventListener("click", showMenu);
 }
 
+/* Utility Functions */
 function showMenu() {
     menuScreen.classList.remove("hidden");
     playContent.classList.add("hidden");
