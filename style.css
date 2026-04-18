@@ -230,10 +230,24 @@ h2 {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
+.Mark-text {
+    max-width: 400px;
+    text-align: left;
+}
+
+.Mark-image img {
+    width: 150px;
+    height: auto;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
 /* Media query for laptop and larger screens */
 @media (min-width: 768px) {
     .Iota-image img,
     .village-image img,
+    .Mark-image img,
     .Grace-image img {
         width: 250px;
     }
