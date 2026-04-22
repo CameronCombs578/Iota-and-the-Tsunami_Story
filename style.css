@@ -25,6 +25,16 @@ body {
     font-size: 1.1rem;
 }
 
+/* Title Image */
+.title-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 1.25rem auto;
+    border-radius: 0.75rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
 /* Navigation */
 .nav-horizontal {
     background: #ffffff;
