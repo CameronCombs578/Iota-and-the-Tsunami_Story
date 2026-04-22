@@ -28,6 +28,8 @@ body {
 /* Title Image */
 .title-image {
     display: block;
+    display: flex;
+    justify-self: center;
     max-width: 100%;
     height: auto;
     margin: 1.25rem auto;
