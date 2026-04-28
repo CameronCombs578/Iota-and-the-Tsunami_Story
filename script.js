@@ -166,8 +166,9 @@ function showScene5() {
                     <img src="images/GraceAndText_Paint.png" alt="Grace standing" />
                 </div>
             </div>
-            <p>As Iota and Grace relaxed by the shore they talked about their view on their Teacher's story. "I don't know," Grace said. "Is having a little pride that big of a deal?" "Well...that is what the Teacher said," Iota said with a shrug. "Anyways, we should be going home." </p>
-            <p>They began to walk back to the village when Iota realized that they had not tried to use the scope. "Maybe we should look through the scope towards the sea," Iota thought.</p>
+            <p>As Iota and Grace relaxed by the shore they talked about their view on their Teacher's story. "I don't know," Grace said. "Is having a little pride that big of a deal?" "Well...that is what the Teacher said," Iota said with a shrug. "Anyways, lets have some fun before we head home." Grace said with wide eyes as she brought out the scope.</p>
+            <p>"This is amazing," Grace said as she looked throug the scope. "Hey! I can't see. Let me see please!" Iota said as she fought over the scope with Grace. After some time running and tugging, Iota gave up her thoughts on looking through the scope. "Oh don't give up that quickly, Here," Grace said as she handed the scope over to Iota. "I am to tired anyways, I need a minute." "Okay, but we need to head home now."
+            <p>They began to walk back to the village when Iota realized that she had not tried to use the scope. "Maybe we should look through the scope towards the sea," Iota thought.</p>
             <button id="chat2continueButton5Path1">Look at the sea with the scope</button>
             <button id="chat2continueButton5Path2">Head home with Grace.</button>
         </div>
@@ -292,7 +293,7 @@ function showScene8Route1Path1() {
                 </div>
             </div>
             <p>"Alright." Iota said as she and Grace ran into the nearby woods. "We have to hurry!" Grace saide as they ran through the woods." As they were running, Grace tripped on a root and ran into one of the trees. "Grace! I'm comming!" Iota screamed as she ran to Grace. Grace was suprizingly okay, but she could not move her legs very well. "I am  okay, but my legs won't work," Grace said. "You need a doctor." Iota said as she thought of options. "There is no time for this you need to hurry and warn the villagers of the tsunami. I will stay here until you warn the." "But...what about wild animals or strangers. You still need help."</p>
-            <p>Iota began to shout for help hoping that somone nearby would her her. "There is no use Iota," Grace said as she reached for a limb on the tree. If you won't leave without me, then I will have to come along." "Oh no you don't, not on my watch," Iota said. As Iota was attempting to stop Grace without hurting her, a boy came walking through the woods. "Hi, what are you two doing." the stranger said with a puzzled look on his face. "What?" Iota saide supprizinglly. "Who are you? Nevermind, we need your help please."
+            <p>Iota began to shout for help hoping that somone nearby would her her. "There is no use Iota," Grace said as she reached for a limb on the tree. "If you won't leave without me, then I will have to come along." "Oh no you don't, not on my watch," Iota said. As Iota was attempting to stop Grace without hurting her, a boy came walking through the woods. "Hi, what are you two doing." the stranger said with a puzzled look on his face. "What?" Iota saide supprizinglly. "Who are you? Nevermind, we need your help please."
             <button id="chat3continueButton3woods">Chapter 4</button>
         </div>
     `;

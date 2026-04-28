@@ -12,17 +12,19 @@ body {
 /* Header */
 .site-header {
     text-align: center;
-    background: rgb(204, 194, 194);
+    background-color: #B97A57;
     color: black;
     padding: 1.25rem 1rem;
 }
 .site-header h1 {
     margin: 0;
     font-size: 2rem;
+    color:black
 }
 .site-header p {
     margin: 0.5rem 0 0;
     font-size: 1.1rem;
+    color: black
 }
 
 /* Title Image */
@@ -132,11 +134,13 @@ h2 {
     display: flex;
     justify-content: center;
     font-family: Segoe Script;
+    color: black
 }
 
 p{
     font-family: Segoe Script;
     font-size: medium;
+    color: black;
 }
 
 li {
@@ -179,30 +183,60 @@ li {
 .menu-return,
 #continueButton,
 #menuReturnButton {
-    width: 100%;
+    font-family: Segoe Script;
+    width: min(320px, 100%);
     border: none;
-    background: #2563eb;
-    color: #ffffff;
-    padding: 0.9rem 1rem;
-    border-radius: 0.75rem;
+    background: #ffffff;
+    color: #000000;
+    padding: 1rem 1.15rem;
+    border-radius: 0.85rem;
     font-size: 1rem;
     cursor: pointer;
     margin-top: 0.75rem;
-        font-family: Segoe Script;
-    font-size: medium;
+    transition: background 0.3s, transform 0.2s ease, color 0.3s;
 }
 
 .menu-card button:hover,
 .menu-return:hover,
 #continueButton:hover,
 #menuReturnButton:hover {
-    background: #1d4ed8;
+    background: #000000;
+    transform: translateY(-4px);
+    color: #ffffff;
 }
 
 .play-content,
 .instructions {
     margin-top: 30px;
     text-align: center;
+}
+
+.story-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.story-text button {
+    font-family: Segoe Script;
+    width: min(320px, 100%);
+    border: none;
+    color: #000000;
+    padding: 1rem 1.15rem;
+    border-radius: 0.85rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s ease, color 0.3s;
+}
+
+.story-text button:hover {
+    background: #000000;
+    transform: translateY(-4px);
+    color: #ffffff;
 }
 
 /* Story Scene */
@@ -214,6 +248,7 @@ li {
     gap: 30px;
     margin-top: 30px;
     flex-wrap: wrap;
+    background-color: #B97A57;
 }
 
 /* Chapter Images and Text */
