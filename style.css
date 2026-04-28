@@ -42,7 +42,10 @@ body {
     background: #ffffff;
     border-bottom: 2px solid #e5e7eb;
 }
+
 .nav-horizontal ul {
+
+    font-family: Segoe Script;
     display: flex;
     justify-content: center;
     gap: 1.25rem;
@@ -56,8 +59,13 @@ body {
     color: #000000;
     padding: 0.35rem 0.6rem;
     border-radius: 0.35rem;
+    transition: color 0.3s, background 0.3s;
 }
 
+.nav-horizontal a:hover {
+    background: #000000;
+    color: #ffffff;
+}
 /* Main page spacing */
 main {
     max-width: 900px;
@@ -123,6 +131,18 @@ h1,
 h2 {
     display: flex;
     justify-content: center;
+    font-family: Segoe Script;
+}
+
+p{
+    font-family: Segoe Script;
+    font-size: medium;
+}
+
+li {
+    font-family: Segoe Script;
+        font-size: medium;
+
 }
 
 /* Menu Screen */
@@ -144,6 +164,9 @@ h2 {
     background: #ffffff;
     box-shadow: 0 20px 45px rgba(15, 23, 42, 0.18);
     text-align: center;
+    font-family: Segoe Script;
+    font-size: medium;
+
 }
 
 .menu-card h2 {
@@ -165,6 +188,8 @@ h2 {
     font-size: 1rem;
     cursor: pointer;
     margin-top: 0.75rem;
+        font-family: Segoe Script;
+    font-size: medium;
 }
 
 .menu-card button:hover,
