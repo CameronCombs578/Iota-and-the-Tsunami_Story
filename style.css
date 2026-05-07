@@ -190,7 +190,7 @@ li {
     color: #000000;
     padding: 1rem 1.15rem;
     border-radius: 0.85rem;
-    font-size: 1rem;
+    font-size: medium;
     cursor: pointer;
     margin-top: 0.75rem;
     transition: background 0.3s, transform 0.2s ease, color 0.3s;
@@ -289,12 +289,32 @@ li {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
+.shore_Paint img {
+    width: 150px;
+    height: auto;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
 .Grace-text {
     max-width: 400px;
     text-align: left;
 }
 
 .Grace-image img {
+    width: 150px;
+    height: auto;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.Jerry-text {
+    max-width: 400px;
+    text-align: left;
+}
+
+.Jerry-image img {
     width: 150px;
     height: auto;
     max-width: 100%;

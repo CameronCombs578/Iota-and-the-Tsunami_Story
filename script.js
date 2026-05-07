@@ -117,6 +117,10 @@ function showCleaningScene() {
                 <div class="Grace-image">
                     <img src="images/GraceAndText_Paint.png" alt="Grace standing" />
                 </div>
+                <div class="Jerry_Paint">
+                    <img src="images/Jerry_Paint.png" alt="Jerry standing" />
+                </div>
+
             </div>
             <p>"Sounds great. Let's help with cleaning," Grace said as she hurried off. "Where are you going?" Iota asked. "I know a neighbor who needs help cleaning," Grace replied. They stopped by Mr. Jerry's house. "You can help mop the bathroom floor," he said, holding out a dollar bill. "I can give you three of these for your work." Iota and Grace grabbed mops and began mopping the floor with smiles on their faces.</p>
             <p>After they finished mopping, Mr. Jerry gave them the money he had promised. The girls ran to the general store and bought the new scope. "This is perfect," Iota thought as she handed the money to the cashier.</p>
@@ -159,8 +163,8 @@ function showScene5() {
                 <div class="Iota-image">
                     <img src="images/IotaAndText_Paint.png" alt="Iota standing" />
                 </div>
-                <div class="village-image">
-                    <img src="images/Vilage.png" alt="Mushroom Village" />
+                <div class="shore_Paint">
+                    <img src="images/Shore_Paint.png" alt="Shore" />
                 </div>
                 <div class="Grace-image">
                     <img src="images/GraceAndText_Paint.png" alt="Grace standing" />
