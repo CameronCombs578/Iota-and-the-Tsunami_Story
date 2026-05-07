@@ -382,7 +382,32 @@ function showScene11Route1Path1() {
     /* document.getElementById("menuButton").addEventListener("click", showMenu);*/
 }
 
-
+function showScene12Route1Path1() {
+    playContent.innerHTML = `
+        <div class="story-text">
+            <h2>Chapter 5: Journey to the Top</h2>
+            <div class="Chapter4">
+                <div class="Mark-image">
+                    <img src="images/MarkAndText_Paint.png" alt="Mark standing" />
+                </div>
+                <div class="Crowd-image">
+                    <img src="images/CrowdAndText_Paint.png" alt="Crowd standing" />
+                </div>
+                    <div class="Iota-image">
+                    <img src="images/IotaAndText_Paint.png" alt="Iota standing" />
+                </div>
+                </div>
+                    <div class="Grace-image">
+                    <img src="images/GraceAndText_Paint.png" alt="Grace standing" />
+                </div>
+            </div>
+            <p>The Journy to the nearby mountains was not as difficult as it could have been wil few numbers. The many crowds helped one another out to when one was in need. "We made it!" The villagers said. As the villagers were celebrating, Mark noticed something behind them. "Look!" Mark yelled. Everyone turned to the sight of the tsunami reaching land. They watched the other half of villagers panic and run our from the vilage just before it was destroyed. "Wow, look how destructive it was," Grace said with awe.</p>
+            <p>All the villagers reunited at the mountain and reflected upon their choices. "We made a mistake," one said with embarrassment. "If only... Nevermind, I just wished that you all trusted me," Mark said. "We definitely do now, we are sorry for our actions. We were blinded by our own pride and were not willing to join you." "Pride?" Iota thought as she was reminded of her Teacher's story of pride. "I guss she was right about its destructiveness." "Time to start over," one of the members of the vilage said as the villagers walked back to what once was their village. "Yep, I guess we can still start over." Iota said to herself.
+            <button id="menuButton">End</button>
+        </div>
+    `;
+        document.getElementById("menuButton").addEventListener("click", showMenu);
+}
 
 /* Utility Functions */
 function showMenu() {
