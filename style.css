@@ -27,6 +27,7 @@ body {
     color: black
 }
 
+
 /* Title Image */
 .title-image {
     display: block;
@@ -141,6 +142,7 @@ p{
     font-family: Segoe Script;
     font-size: medium;
     color: black;
+    border: 1px solid black;
 }
 
 li {
