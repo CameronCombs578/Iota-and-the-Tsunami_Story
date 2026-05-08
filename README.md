@@ -31,3 +31,7 @@ This mixure of a video game and book of this project makes this group interested
 ## Live Project
 
 [View the project](https://cameroncombs578.github.io/Iota-and-the-Tsunami_Story/
+
+## Changes from Project 1 to Project 2
+
+I was able to increase and refine the story by grammar checking and adding more chapters. I Also applied Segoe Script as the format for the text. These changes were applied to give the site a more unique and complete style that disctincts itself from other sites.
